@@ -1,3 +1,6 @@
+include_recipe "libsysfs"
+include_recipe "libts"
+
 packages = Array.new
 
 case node[:lsb][:codename]
